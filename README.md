@@ -1,4 +1,4 @@
-# sympo-form-with-payment-gateway
+# flask-form-with-payment-gateway
 This project can be used for a Symposium or event registration form in online with a payment gateway model. This is a model of a simple gateway like structured website for simple registration and monitoring.
 
 The programming languages involved in this project are:
