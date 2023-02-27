@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "woven-invention-377716",
+  "private_key_id": "9c2ae2d0cfbe5e2f623f019d4f5e5b549b762b18",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDKzR1I2lhPghNO\ntzohge8KgiPBPBL9X1tUirZglfBQvseh0lrTmPN+j2hsnSkkhuJGNnMkzjTzvIYU\nhgo8hD/KDHKmnFWRNucxNja0blO9uCqsP1XJIXjs+t+SmmaWm3MopsWPP4rzx3j8\nsBeCx18NJDbPsCUC8eUcMsPBCCnjtod4VktkcJHxB4IqfoLzJ2Ita2PAGcoYVXkn\nyjx4PcWaHQGl47zuyd8q3vytZf0bUxxZG8dAF3B4rflxIEqw6SN8k3MjK7cg8KQd\nqDqgFvoFBMoCzbc67oPfnUAkjT7q86x99EhPEofCSTHwmrb1ASW9qVbjX7V0C+xk\nop0JBDvnAgMBAAECggEAB/d3y4lcR79N3909yNwwVkLXgbtI6bApx8/tKy0otBtS\nf05iqAZNpm6exQmFeLxdvjFcY5lAJkUFJWBAnbD6Socjp9zjVaGJAntlOcBNxNmr\nv3l7dru8Yt7WEo3DMu5nXzTx9Ncjr8DpxU9rlQUc/EisaIs8YPm8rNdnrjkSYDIU\n/6A/4rIaJFoPZ7E3XxmGIY7xFiSzWinFPu3LAKvZxqlEfVlsOiatQhmVY63wskLv\nizT/FuY7AWOUt1+3vGwTBZv5+Voga7sfXjYLc9nYaWgXWo1bZz6yFF1vuTAiddAF\nykCXDmvpRBMKA0xjoeZdx34b9TfJB/TqthM6XNZzoQKBgQDyaIQMPcOYh++pH0Fx\nuPMRt44DDxwTD1LHqeKNznHAJSjrm9muTIHC8seCYq3gUuumW4SNsh3VZJz6QjNo\n9dOP+b6qIdZXbRnxUKVwQAsqkm/yN+1j1FAY927Le7sF5hYzjsnhhIonxLHQga0Y\n+QF+SHg2FXdRkOBYa6YKpt76RwKBgQDWLBYcc/0vqGoOd1BzfTwyUqgqJE8ndkeD\nO+AITyAM9pCiYfM6k992SARvxm98eH5ZyTu2qAudAWnVRnLcpUbaSrMEonX2Q5H6\nT/pSdvyFStsrJ+2a4sF8jQvLDsIMrOo9ZNxpkwAgwA8xeKINUye1l4I5SHB+j+Wo\nQi2Zr3nhYQKBgCVF1s//Cz0/4aTyjmCLHKzjuW1U/G8d0w+qWpCNZsYxsIoRy7XW\nQ7mTFQRCYhP1DBDnT4luEtJGBzEfzsHb0qz3rM6CJ3AH8Y4+ZUHORylDnPz0hobs\nFWjRWvLk0owEpfNFiFspwwh8YQ77cX8+gnFFeV5vjIo5KZXO75gBspVvAoGARnGx\nxCISgP5wA9oSyCnFBvhQ/6t5rY0l8HBdO95quFjRMdft3LKOqaT+cJVgThyD0pxx\n255iU34HhXLqjNCAAYTYZQnaqumGtkJgH4erf1wjwoobiPpUkdcCrgNoqCqn0RG/\nvanwPNVvKeJ3ytIzGXOADb9Z4QcLjtBVl1s0R4ECgYBKMWTzOuVdedKekTbPMy/l\nXqsy+DorRl7FRhjBeBvvv+6KcUNiypYjozHq3NnBJcVi5OZoUB+YBf6LNUF+veLK\nVe/wePfAK4aQ4x8sEO2DElLhbBvhJZ608PMACei57xjEnMkkzHiCF2ElzqdzuZR+\ndawaOsQt0ZePnhnOTrf7Bw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "port2023@woven-invention-377716.iam.gserviceaccount.com",
+  "client_id": "102394762859935972243",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/port2023%40woven-invention-377716.iam.gserviceaccount.com"
+}

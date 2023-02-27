@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/css/form.css">
+    <title>Symposium</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+          <h1 id="title">Symposium Registration Form</h1>
+          <p id="description">Thank you for taking the time</p>
+          <form id="survey-form" method="post" action="/form" enctype="multipart/form-data">
+            <div class="input-box">
+              <label for="name" class="title-label" id="name-label" >Name of the student</label>
+              <input type="text" id="name" class="input-text" placeholder="Enter your name" name="name" required>
+            </div>
+            <div class="input-box">
+                <label for="name" class="title-label" id="name-label">College Name</label>
+                <input type="text" id="name" class="input-text" name="college" placeholder="Enter your College name">
+              </div>
+            <div class="input-box">
+              <label for="email" class="title-label" id="email-label">E-mail</label>
+              <input type="email" id="email" class="input-text" name="mail" placeholder="Enter your e-mail" required>
+            </div>
+            <div class="input-box">
+              <label for="number" class="title-label" id="number-label">Mobile Number</label>
+              <input type="tel" id="number" class="input-text" min="0" max="200" name="mobile" placeholder="Enter your mobile number">
+            </div>
+            <h2>Work Shops</h2>
+            <div class="input-box">
+              <select name="workshop" id="dropdown" class="input-text">
+                <option value="" disabled selected>Select Workshop</option>
+                <option value="Deep Learning with CHATGPT">Workshop 1</option>
+                <option value="Full Stack Development">Workshop 2</option>
+              </select>
+            </div>
+            <h2>Payment Method</h2>
+            <div class="input-box" id="radio-section">
+              <label><input type="radio" id="definitely" name="payment" value="spot" required>Spot Payment</label>
+              <label><input type="radio" id="maybe" name="payment" value="online">Pay Online</label>
+                        </div>
+            
+            <h2>Technical Events</h2>
+            <div class="input-box" id="checkbox-section">
+              <label class="input-checkbox">
+                <input type="checkbox" name="tevent" value="Web Hunting">
+                Event 1
+              </label>
+              <label class="input-checkbox">
+                <input type="checkbox" name="tevent" value="Webify">
+                Event 2
+              </label>
+              <label class="input-checkbox">
+                <input type="checkbox" name="tevent" value="Algo Quest">
+                Event 3
+              </label>
+              <label class="input-checkbox">
+                <input type="checkbox" name="tevent" value="Blind Coding">
+                Event 4
+              </label>
+              <label class="input-checkbox">
+                <input type="checkbox" name="tevent" value="Paper Presentation">
+                Event 5
+              </label>
+            </div>
+            <div>
+              <h2> Non Technical Events</h2>
+              <div class="input-box" id="checkbox-section">
+                <label class="input-checkbox">
+                  <input type="checkbox" name="ntevent" value="Adzap">
+                  Event 1
+                </label>
+                <label class="input-checkbox">
+                  <input type="checkbox" name="ntevent" value="Brushless Painting">
+                  Event 2
+                </label>
+                <label class="input-checkbox">
+                  <input type="checkbox" name="ntevent" value="Mind Game">
+                  Event 3
+                </label>
+            </div>
+            <div>
+              <h2>Are you willing to participate in IPL Auction ?</h2>
+              <div class="input-box" id="radio-section">
+                <label><input type="radio" id="definitely" name="ipl" value="yes">Yes</label>
+                <label><input type="radio" id="maybe" name="ipl" value="yes">No</label>
+                          </div>
+            </div>
+            <div style="width: 100%;margin-bottom: 5%; margin-top:-3%;margin-left: 2%;margin-right: 5%;"><ul>
+              <li>All are Eligible To Participate In the First Round On Free Of Cost</li>
+              
+              <li>If you Are Short Listed For the Second Round You Cannot Participate in other Events because It Is a Mega Full day event </li>
+              <li>For Second Round Entry Fee Rs.250/- On the Spot Payment</li>
+            </ul></div>
+          
+            <input type="submit" id="submit" value="Submit" class="submit-button">
+          </form>
+        </div>
+      </section>
+</body>
+</html>

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --timeline-colour: #00bbff;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+.timeline {
+  margin: 1rem;
+  padding: 1rem;
+  background: linear-gradient(to right, #006cc4, #ba0c00);
+  color: white;
+  font-family: 'Montserrat';
+}
+.timeline__header {
+  position: relative;
+  padding-bottom: 0.5rem;
+  font-size: 25px;
+}
+.timeline__header:before {
+  content: "";
+  width: 0.125rem;
+  height: 100%;
+  position: absolute;
+  top: 0.25rem;
+  left: calc(0.375rem - 1px);
+  background-color: var(--timeline-colour);
+}
+.timeline__live {
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 0.25rem;
+}
+.timeline__live > span {
+  display: block;
+  margin-left: 0.25rem;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.timeline__title {
+  margin-left: 1rem;
+}
+.timeline__list > li {
+  display: flex;
+  gap: 0.5rem;
+  position: relative;
+  padding: 0.625rem 0;
+  font-size: 0.75rem;
+}
+.timeline__list > li:before {
+  content: "";
+  width: 0.125rem;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: calc(0.375rem - 1px);
+  background-color: var(--timeline-colour);
+}
+.timeline__list > li:last-child:before {
+  height: 0.875rem;
+}
+.timeline__marker {
+  width: 0.5rem;
+  min-width: 0.5rem;
+  height: 0.5rem;
+  margin-top: 0.0625rem;
+  margin-left: 0.125rem;
+  background-color: var(--timeline-colour);
+  border-radius: 50%;
+}
+.timeline__marker--live {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-left: 0;
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.timeline__timestamp {
+  font-weight: 700;
+  font-size: 22px;
+}
+.timeline--alt {
+  --timeline-colour: #2866f6;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 0.85, 0.85);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 0.85, 0.85);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}

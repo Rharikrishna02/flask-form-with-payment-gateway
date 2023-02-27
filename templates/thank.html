@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #timer {
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="timer">02:00</div>
+
+    <script>
+      const timer = document.getElementById("timer");
+      let count = 10;
+      
+      setInterval(function () {
+        count--;
+        if (count <= 0) {
+          clearInterval();
+          timer.innerHTML = "Time's up!";
+        } else {
+          let minutes = Math.floor(count / 60);
+          let seconds = count % 60;
+          if (minutes < 10) {
+            minutes = "0" + minutes;
+          }
+          if (seconds < 10) {
+            seconds = "0" + seconds;
+          }
+          timer.innerHTML = minutes + ":" + seconds;
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>
