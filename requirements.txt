@@ -1,1 +1,11 @@
-hello
+flask
+os
+gspread
+xlrd
+gspread-dataframe
+google
+firebase
+firebase-admin
+pandas
+pydrive
+werkzeug
