@@ -22,3 +22,7 @@ To run this project in your desktop or PC install the following packages using p
 9. pandas
 10. pydrive
 11. werkzeug
+
+OR
+
+Simply clone the project and execute pip -r requirements.txt in your terminal
